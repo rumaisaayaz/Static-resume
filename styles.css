@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1a1f4b; /* Blue background */
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #000334; /* Blue background */
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #3498db;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+  border: 3px solid #000334; /* Dark blue border */
+}
+
+h1 {
+  color: #fbfbfc; /* White text for the name */
+  font-size: 2.5rem;
+  margin: 0;
+  text-shadow: -1px -1px 0 #000334, 1px -1px 0 #000334, -1px 1px 0 #000334,
+    1px 1px 0 #000334;
+}
+
+.content {
+  display: flex;
+}
+
+.left-section {
+  width: 30%; /* Narrow left section */
+  padding-right: 20px;
+}
+
+.right-section {
+  width: 70%; /* Wider right section */
+  padding-left: 20px;
+  border-left: 2px solid #2e2e2e; /* Deep grey dividing line */
+}
+
+h2 {
+  color: #3498db; /* Blue headings */
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.contact,
+.skills,
+.courses,
+.experience,
+.education {
+  margin-bottom: 30px;
+}
+.gitlink:hover {
+  color: yellow;
+}
+
+.contact ul,
+.skills ul,
+.courses ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.contact ul li,
+.skills ul li,
+.courses ul li {
+  background-color: #3498db; /* Blue background for list items */
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.contact ul li:hover,
+.skills ul li:hover,
+.courses ul li:hover {
+background-color:#0056b3;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.experience .job,
+.education .degree {
+  background-color: #f4f4f4; /* Light grey for job and education boxes */
+  color: #000334;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-left: 5px solid #3498db; /* Blue bar */
+}
+.toggle-button {
+  padding: 10px 15px;
+  background-color: #007BFF; /* Bootstrap Primary Color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.toggle-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #666;
+}
